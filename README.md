@@ -8,7 +8,7 @@ Choose for windows one of those
 * [64-bit Git for Windows Setup.](https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe) 
 * [32-bit Git for Windows Setup](https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-32-bit.exe)
 
-To install `git``, run the downloaded file
+To install `git`, run the downloaded file
 
 Create a new folder for a new project, e.g. `cource` on D disk
 
@@ -70,7 +70,7 @@ We will use `https://demoqa.com` website for testing. Go to `https://demoqa.com`
 
 Fill in all fields and press `Register` button.
 
-Use the username and password in tests `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\tests\PageFactory.java`
+Use the `username` and `password` in tests `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\tests\PageFactory.java`
 
 ## The task 
 
@@ -78,4 +78,8 @@ The task is to write automated tests for a resource `https://demoqa.com`
 
 Test [login](https://demoqa.com/login) and [Book Store](https://demoqa.com/books) pages
 
-To describe these pages there are classes in the `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\pagefactory` folder
+To describe these pages there are classes in the `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\pagefactory` folder.
+
+Fill in the correct value of the locators in the @FindBy annotations and implement the method in these classes so that the `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\tests\PageFactory.java` tests pass
+
+When implementing methods for checking and searching for elements on a page, use wait as in examples `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\tests\waitexample\`
