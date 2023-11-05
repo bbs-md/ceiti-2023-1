@@ -78,8 +78,18 @@ The task is to write automated tests for a resource `https://demoqa.com`
 
 Test [login](https://demoqa.com/login) and [Book Store](https://demoqa.com/books) pages
 
-To describe these pages there are classes in the `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\pagefactory` folder.
+To describe these pages there are classes in the `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\pagefactory` folder: `DemLogin` and `DemBooks`.
 
-Fill in the correct value of the locators in the @FindBy annotations and implement the method in these classes so that the `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\tests\PageFactory.java` tests pass
+Fill in the correct value of the locators in the @FindBy annotations and implement the methods in these classes so that the `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\tests\PageFactory.java` tests pass
 
 When implementing methods for checking and searching for elements on a page, use wait as in examples `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\tests\waitexample\`
+
+## Run test
+
+Right click on file and run the test
+
+![image](./images/run_tests.png)
+
+## Expected test result
+
+![test_result](./images/test_result.png)

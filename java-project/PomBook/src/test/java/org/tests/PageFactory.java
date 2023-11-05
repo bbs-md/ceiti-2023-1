@@ -37,7 +37,7 @@ public class PageFactory {
     }
 
     @Test
-    public void login() {
+    public void loginTest() {
         System.out.println("Start login");
         driver.get(URL_LOGIN);
         DemLogin login = new DemLogin(driver);
