@@ -74,15 +74,15 @@ Use the `username` and `password` in tests `D:\cource\ceiti-2023-1\java-project\
 
 ## The task 
 
-The task is to write automated tests for a resource `https://demoqa.com`
-
 Test [login](https://demoqa.com/login) and [Book Store](https://demoqa.com/books) pages
 
-To describe these pages there are classes in the `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\pagefactory` folder: `DemLogin` and `DemBooks`.
+To describe these pages in cloned project [PomBook](./java-project/PomBook/) there are classes in the `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\pagefactory` folder: `DemLogin` and `DemBooks`.
 
 Fill in the correct value of the locators in the @FindBy annotations and implement the methods in these classes so that the `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\tests\PageFactory.java` tests pass
 
 When implementing methods for checking and searching for elements on a page, use wait as in examples `D:\cource\ceiti-2023-1\java-project\PomBook\src\test\java\org\tests\waitexample\`
+
+The tests have already been written in [PageFactory.java](./java-project/PomBook/src/test/java/org/tests/PageFactory.java) and there is no need to change them, you only need to correct the classes that are used to describe the mentioned pages.
 
 ## Run test
 
