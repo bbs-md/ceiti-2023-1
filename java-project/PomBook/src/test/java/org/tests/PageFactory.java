@@ -19,8 +19,12 @@ import java.util.List;
 public class PageFactory {
 
     static WebDriver driver;
+    //fill in the field, example USER_NAME = "userName";
     public static final String USER_NAME = "";
+
+    //fill in the field
     public static final String USER_PASSWORD = "";
+    
     public static final String URL_LOGIN = "https://demoqa.com/login";
 
 
